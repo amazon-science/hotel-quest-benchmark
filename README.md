@@ -1,7 +1,21 @@
 
 # HotelQuEST: Balancing Quality and Efficiency in Agentic Search
 
-HotelQuEST is a benchmark for evaluating agentic search systems, focusing on the trade-off between **answer quality** and **computational efficiency**.
+[//]: # (## 📢 Latest Updates)
+
+[//]: # (- **2026 Jan-15**: Code and benchmark data released.)
+
+[//]: # (- **2025 Dec**: Paper accepted at EACL 2026.)
+
+## HotelQuEST Benchmark 💡
+
+HotelQuEST is a benchmark comprising 214 hotel search queries that range from simple factual requests to complex queries, enabling evaluation of agentic search systems across the full spectrum of query difficulty. The benchmark focuses on the trade-off between **answer quality** and **computational efficiency**.
+
+## Contributions 🏆
+
+- **A benchmark for agentic search:** A set of 214 simple to complex hotel queries, each with complexity ratings, ground-truth clarifications for underspecified preferences, and structured decompositions for detailed analysis of agent behavior.
+- **Joint evaluation of quality and efficiency:** A systematic measurement of answer quality together with cost, token usage, and latency, capturing tradeoffs between quality and practical deployability.
+- **Empirical analysis exposing inefficiencies:** We demonstrate that current LLM-based agents display poor cost-quality trade-offs, frequently over-investing computation for marginal quality gains. Our analysis suggests significant potential for more cost-aware agent design.
 
 ---
 
