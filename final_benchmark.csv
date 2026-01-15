@@ -1,0 +1,275 @@
+,query,Clarification Ground Truth,human_complexity_rating
+0,Looking for a hotel for a 25 years old solo traveler in Columbia,"25 years old solo traveler:
+- location: safe neighberhood
+- activities: has social activities or amenities
+- appropriate price, not luxury or 5 stars hotels",Moderate
+1,budget-friendly hotel in Madrid,"budget-friendly:
+ 
+- 2-3 star hotel
+- reasonable range (and large to not miss others prespictive) would be between 50-100 euro a night.
+
+hotel and not hostel/other airbnb-style apartements.",Simple
+2,All-inclusive style hotel with few pools and a nice beach in Greece,"few pools: minimum two
+nice beach: beach which I can find mentioning in the reviews or I can find it if I search the internet on nice beaches in Greece..",Simple
+3,Hotel in New York next to a subway,No need for clarification,Moderate
+4,"Good hotel in Rhodes for young people, close to the center and a good beach","for young people: preferably with social activities and good social atmosphere.
+
+close to a good beach:  located next to a known beach in Rhodes or mentioned in the reviews ",Moderate
+5,"Adults only hotel in Cancun, excluding Isla Mujeres and Costa Mujeres areas",-,Moderate
+6,"I‚Äôm taking a vacation to Dubai, looking for a hotel with a rooftop pool and great spa service",-,Simple
+7,"Looking for luxury, high-end hotel in Miami for our honeymoon","5 starts hotel, high price",Simple
+8,"I‚Äôm going for a solo trip to San Jose, Costa Rica. Find me a hotel with a great social atmosphere","solo traveler:
+- location: safe neighberhood
+- activities: has social activities or amenities
+- appropriate price, not luxury or 5 stars hotels",Moderate
+9,"Can you please help me plan a 10 day trip in Austria that does not include Vienna. We are family with 18 yo and 15 yo. We want to spend 2-3 days near a lake, we want places with incredible views, we want small charming villages, and 1-2 fun attractions like mountain slides, bike trip, etc'.",rooms with place for 4 adults; suggest a list of locations and a list of hotels for each location,Moderate
+10,Couple stay in Verona this April.,romantic couple hotel,Simple
+11,"I need a villa party of 16 people with a must on outdoor pool. I don‚Äôt care where, somewhere in Greece! Woo-hoo!","party implies wanting a selection of amneties like an included bar, pool or foosball tables or other games, BBQ, hot tub, music/lights equipment or other amneties in addition to the outdoor pools specification. ",Moderate
+12,Vienna. No stairs. Balcony.,"look for wheelchair or child stroller accessible places, and include checking for any access stairs between the parking or public transport stops and the building - not just within the building itself. having a balcony implies preffering a view. ",Moderate
+13,Are there hotels offering a good selection of vegan breakfast options in S√£o Paulo?,"good selection is somewhat subjective, so check for reviews that specifically talk about having several vegan options on the menu",Moderate
+14,Clean London hotel room near Hyde Park for two nights up to 60 pounds a night,"clean is subjective, so need to confirm in reviews",Moderate
+15,Cheap hotel close to Anime Central 2026 for single adult,need to understand where and when the anime convention is to answer; only pick budget friendly options,Moderate
+16,"Planning a trip to Paris for this Christmas, I need a place with a kitchen or kitchenette as we‚Äôre two adults traveling with a small baby.","baby also means crib availability and no stairs, and being near attractions so that time planning can accomodate baby's needs; wanting a kitchenette may imply more focus on cost-saving. ",Moderate
+17,Florida keys hotel with on-site dive center,"emphasis on the dive center, good rating for the dive center, accesibility to good dive sites",Simple
+18,Luxury hotel in the Maldives with a private water slide,very high star and review rating,Moderate
+19,Best dog friendly (large dog) accommodation in Provence,"all results should specifically state that dogs are allowed, perference to a hotels with clear dog policy that set no restrictions on dog size",Complex
+20,Quiet resort in a Greek island without many tourists,"implicitly looking for a secluded island, not a quiet spot in a crowded island",Complex
+21,Highly rated hotel in NYC with central park view,-,Simple
+22,Accommodation near or in Yellowstone national park with good wireless reception,-,Simple
+23,Hotel in Aosta valley Italy that is easy to reach by car and has good reviews,emphasis on easy to reach,Moderate
+24,"Business trip to downtown Seattle, looking for an hotel from Marriott chain, not too expensive with a gym","* not too expensive - relative to other hotels in the area
+* hotel must have wifi and power outlets",Moderate
+25,"Romantic getaway for two adults, long weekend in a European capital. Walking distance from sightseeing sights and good restaurants.","* nice room with a double bed ideally with a nice view
+* upto 30min walk from multiple sights
+* upto 10min walk from highly reviewd restuarants",Complex
+26,"Business trip to Israel, looking for a hotel near the Microsoft offices in Tel-Aviv","* hotel must have wifi and power outlets
+* upto 15 mins walking from the microsoft offices or 10 mins commute",Moderate
+27,"Cheap home stay in Tam Coc for a family of five, swimming pool and smart-tv a must.",,Simple
+28,"I‚Äôm looking for an apartment in Tokyo for a week during July for family with kids aged 10,8 and 3. Central location and close to public transportation.",* up to 10 walking mins to station,Simple
+29,"I want a quite place with some yoga classes or something like this, not too expensive but still in high quality.",,Simple
+30,I want a hotel in Venice with free parking. if you dont find then give me hotels near to good public transportation.,I want at least train or bus,Moderate
+31,"Want a isolate place in the Alps but not too much, i still want WIFI etc",* i want still basic stuff,Moderate
+32,I am using a wheelchair so i want an accessible hotel in New York for a family. We probably will eat outside but not too far from the hotel.,"* In ""too far"" i mean for a person using a wheelchair",Moderate
+33,Looking for traditional hotel in Kyoto for couple. want to experience different culture!,* I want specific culture experiences and not fuzzy description,Simple
+34,I am vegan and search for hotel in Berlin. not too loud. neat and clean.,i want a vegan food or at least vegan options,Simple
+35,I am arriving Florence this Sunday. i need a hotel in walking distance from train station. it will be nice if it will be near art galleries.,,Simple
+36,"help me find my next vacation! wonderful views, beach and great food!",* I want to see options from different locations and styles,Simple
+37,"Simple hotel in Toronto, reasonable price with good food and nice view.",,Simple
+38,"Boutique hotel in east Europe, not too expensive , family with little kids, with a pool.",* I want some concrete options for kids and not only fuzzy descriptions,Simple
+39,"5 star hotel next to the Eiffel tower, good price, great food.",,Simple
+40,"family trip in Thailand, luxury hotel and next to the beach.",,Simple
+41,"Honeymoon in the Dolomites, summer, quite place.",recommend only things that relevant for summer,Simple
+42,not expensive hotel in the center of Padua,,Simple
+43,"Trek in Nepal, Solo",* low cost * close to treks,Simple
+44,"hotel with the biggest Casino in Limassol, Cyprus",* there is one single hotel with the largest casino in limassol which is called city of dreams.,Moderate
+45,"Adult only, premium boutique hotels or cabins in the Negev desert, Israel.",* hotels with no kids allowed. * relatively small and with high quality * In the Negev desest area in Israel,Simple
+46,Budget hotels near the Taipei International Convention Center (TICC),* Budget hotel * Waliking distance from the Taipei International Convension Center,Simple
+47,"best places for kids in lake Balaton, Hungary.",*hotels which are specialized for kids in lake Balaton (like Movenpick Balaland and Kolping family resort),Moderate
+48,"Ski resort in Europe, good accommodation but not too expensive, good for learning snowboarding in a safe manner","I'm looking for something that is highly rated and supported customers that rooms are cousy and well maintained. Also, ski is rather risky, so I want professional teachers and not being mixed too much with actual skiers that can run me over",Moderate
+49,"A Disney trip to the united states for a family of 4 at a reasonable price with a 2 year old and a 6 years old, mostly enjoying the hotels and parks","I'm looking for a room with an extendable sofa my little kids can sleep on, as well as the hotel being kids friendly and include a kid's room, kid's events, preferably things that are related to disney if possible. If it's too expensive, show me additional options that match and how much do I need to add to get more. Also, I'm looking for evidence from real families with kids to support.",Moderate
+50,"A trip to India for 2 adults, a clean location, clean hotel, safe to drink water, high-end yet reasonable prices",by clean location I mean an area that is rather public and not too much smell or trash or dirt. ,Moderate
+51,"A trip to Japan for 2 adults at a good season, good price and next to good places to eat, comfortable beds","I'm not sure what is a good season, but I know that at the end of March there's the cherry blossom and it will be nice to see. I would also like it to search for highly rated places to it and recommend locations next to such good places.",Complex
+52,"A family trip to Prague or Budapest for a family of 4 with a 1 year old and a 5 year old, mostly staying at the hotel","amenities for kids like kids playroom, and other children activities and food options",Moderate
+53,"Looking for a stylish hotel in Colombia for a 25-year-old solo traveler, preferably with co-working space, close to nightlife.","25 years old solo traveler:
+- location: safe neighberhood
+- activities: has social activities or amenities
+- appropriate price, not luxury or 5 stars hotels
+
+strong match for co-working space.
+should be close to areas of bars/restaurants and nightlife",Complex
+54,"Find a budget-friendly hotel in central Madrid, available for the week of the first game of Real Madrid in 2025/2026 season","budget-friendly:
+reasonable range of prices, like under 100 euro per night
+
+first-game of Real Madrid:
+around August 16-17, 2025 against Osasuna
+
+",Complex
+55,"Need a hotel in New York, next to a major subway line, In October to watch Knicks game.","to watch Knicks game:
+a hotel next to MSG (Knicks stadium)
+
+next to a major subway line:
+a hotel within walking distance of a high-traffic or multiple-line subway station.",Complex
+56,"Find an adults-only hotel in Cancun, but exclude Isla Mujeres and Costa Mujeres areas. Must have an infinity pool, spa, and be oceanfront.",,Complex
+57,Couple stay in Verona this April with gay friendly staff,,Complex
+58,"I need a villa party of 8 people with a must on outdoor pool. I don‚Äôt care where, somewhere in Greece! Woo-hoo!",,Complex
+59,"Vienna. No stairs. No carpets or heavy drapes, as I have asthma. No smoking room. Balcony. ",,Complex
+60,vegan breakfast hotels Porto Alegre,,Complex
+61,Cheap hotel close to Anime Central 2026 for single adult. i can share utilities but not a shared room. ,,Complex
+62,"Planning a trip to Paris for this Christmas, I need a place with a kitchen or kitchenette as we‚Äôre two adults traveling with a small baby. on a budget, has to be central location for main tourist attractions.",,Complex
+63,Florida keys hotel with on-site dive center and good dive sites accessible without a boat,,Complex
+64,Luxury hotel in the Maldives with a private water slide and a short transit to Male,,Complex
+65,Best dog friendly accommodation in Provence for a couple with two large dogs,,Complex
+66,I want to treat myself and go to yoga retreat. recommend me a relevant hotel with good food.,,Complex
+67,I am living in New York and i want a hotel to expernice completley different culture. ,* non western culture,Complex
+68,I am going to the vegan confernce in Prague next month. find me a hotel under 100$ per night,* i want vegan food or at least close to vegan places,Complex
+69,I love art! i want you ro recommend me hotel that i can walk to many many great locations for me!,,Complex
+70,give me my next location to the next trip with only location that i can live inder 150$,,Complex
+71,We are a young modern orthdox jewish family and we want a to have a short family vacation in Toronto. ,Kosher food or at least close to Kosher places,Complex
+72,"Find a boutique hotel in Eastern Europe (e.g., Slovenia, Croatia, Hungary, Romania, or Poland) that’s family-friendly for two adults + two kids (ages 3 & 6), max €160/night, and has a pool.",,Complex
+73,I want to see all the places you must see in paris and i am not afraid to pay for it! give me some hotels that optimal for me,"* some ""must see"" attractions in Paris",Complex
+74,We are spontinous family that heard about the beautiful shores in Thailand. We want treat ourself but not splurge,* be aware to the money issue,Complex
+75,We will married now on August and we want to fly after that to the Dolomites. give us yout best places!,give recommendation relevant for summer time (e.g no ski),Complex
+76,I am going to SIGIR 2025 so i want a hotel near by. I am coming alone,"SIGIR 2025 is in Padova, Italy. ",Complex
+77,I want to do Trek in Nepal but i am not in good shape so recommend me a trek and a hotel near by. i want a hot shower in the end...,* I want a hotel that close to easy treks or treks for beginners,Complex
+78,I'm looking for a hotel with a big casino in cyprus. I like large casinos with plenty of game tables,"in cyprus, offers a large casino",Complex
+79,I want to surprise my wife with a luxury trip to the negev desert. Something quiet and exquisite,,Complex
+80,"I'm traveling to a conference in Taipei convension center, and I prefer using my budget on restaurants rather than hotels. But I don't want it to be too far from the conference as it's warm and humid.",,Complex
+81,"hotels specialized for kids with kid friendly rooms and toilets, amusement parks and water parks. Near lake Balaton, Hungary.",,Complex
+0,"Planning a trip to Mexico with my wife, specifically Cancun and Playa del Carmen. Looking for luxury hotels with beautiful pools, excellent breakfast, and close to nightlife areas. We love nice beaches. Need recommendations for both destinations.","recommendation should be (1) high-end (4-5 star) hotels (2) in two destinations, (3) has nice pool, and good breakfast as said in the reviews, (4) beach access, and proximity to entertainment districts.",Moderate
+1,Flying into Rio de Janeiro in November with a friend. Want to explore nearby cities under 8 hours by bus with good weather during that time. What destinations and hotels do you recommend within reasonable travel distance from Rio?,"hotels in cities accessible from Rio de Janeiro within 2-5 hours travel, 
+
+""Good weather"" implies dry, warm conditions. the agent should explain why the destiniation is appropiate",Complex
+2,Summer family vacation in Budva - need hotel recommendations that are kid-friendly and close to the beach.," 'Kid-friendly' hotels with ameneties like: children's pools, playground areas, kids' clubs/activities, family rooms
+
+'Close to the beach' means walking distance under 500 meters",Simple
+3,Need a hotel for the Austin SXSW festival - walking distance to venues.,"'Walking distance' means accommodations within 0.5-1 mile radius of downtown Austin core, particularly near Convention Center and 6th Street corridor.",Moderate
+4,"Business trip to Singapore, need hotel close to Marina Bay financial district","hotel with good meeting facilities
+
+near Marina Bay Financial Centre area - downtown core",Moderate
+5,I'm planning a trip to the northern part of Montenegro to enjoy scenic views. Can you recommend a route through cities with hotels that are primarily for sleeping? The hotels should be very clean,"it can pass through cities like Pljevlja, Bijelo Polje, Mojkovac, and Žabljak, mountainous areas like Durmitor National Park, Tara River Canyon, and Piva Lake region.
+",Complex
+6,"Hostel in Rio Brazil, Ipanema or CopaCabana, good rating compared to other hostels in the region",would expect comparative analysis showing ratings of multiple hostels in the region,Moderate
+7,Honeymoon suite in Santorini with sunset view and private pool,,Moderate
+8,Airport hotel in Amsterdam for overnight layover,hotel next to the airport. ,Simple
+9,Digital nomad-friendly hostel in Lisbon,should have coworking space,Moderate
+10,"cheapest place to stay for a party of six to las vegas, close to the big hotel area with all the casinos and parties",emphasis on location and low price,Complex
+11,"family trip to cyprus this August, so we want a reasonably nice hotel with kid activities, water slides and good food",,Moderate
+12,we are a family of four traveling with small kids during automn and want a european hotel with an indoor water park,no location is given so have to search any place in europe,Complex
+13,cheap apartment hotel near john hopkins hospital for a long stay,"long stay implies needed a kitchennete, a closet and some laundry options. ",Complex
+14,"paris hotel with satin sheets, great spa services and luxury design","some hotel with luxury design by a high-end designer, high-quality materials and furniture, high-end bedding and mattresses, famous also as a spa",Moderate
+15,"I want to work remotely from the Thailand Islands area, so I need a room with extermly good free internet access and great food services","wifi with high bandwidth, office amneties in the room (e.g., table, office chair) or within the hotel. several food options in the hotel or within a city location with takeout options",Moderate
+16,I'm going to San Francisco and really want a room with a view of the Golden gate bridge,,Simple
+17,hotel in harlem,location reffers to new york,Simple
+18,bed and breakfast in vermont area,,Simple
+19,ski resort in swizzerland,,Simple
+20,ski resort in swizzerland the offers full week lessons for single adults without prior experience with full board and some nice after dark activities and parties,,Complex
+21,"booking a historic tour of concentration camps in poland for a group of 22 18 year olds, I need several cheap hotels with many rooms that we can use to travel to the main historic spots, including Treblinca and Auschwitz but also other spots","infer the right location, split to several days of itinerary and make sure the hotel has appropriate size for a large group",Complex
+22,"a hotel in kyoto with a traditional japanese rooms, a complementary traditional breakfast and an outdoor onsen experience",,Moderate
+23,hotel with buissiness meeting areas in vienna for important contract signing,"conference rooms for hire, reception service, wifi access and ability to order a light lunch or refreshments for the room",Moderate
+24,"going to australia for a hiking trip in october, find me some hotels with access to hiking areas with hikes that are at least 3 hours long and intermidiate level, that are good for the season",find hikes in Australia and from that infer locations and then speicfic hotels,Complex
+25,tokyo hotel for couple in January under 50$ per night,,Simple
+26,hotel for london marathon 2026,"need to infer the dates, hotel needs to be walking distance from marathon start location",Simple
+27,chicago hotel with bike rental nearby,find bike rental locations in chicago,Moderate
+28,treehouse hotel in a scandinavian country with great forest views,,Moderate
+29,a hotel I can see the aurora from,find location of aurora-viewing hotels specifically,Moderate
+30,hotel with a great breakfast when I can walk to taj mahal,"the tag mahal is in Agra, India",Moderate
+31,"I have some allergies so i want a hotel in Chicago that the stuff will treat me well. In addition, I want a nice pool and a train station near by.",,Complex
+32,I want a place in France when i can bake bread and also when i can go out to the nature,,Complex
+33,I am a grandparent who travel with my 12 years old grandson in Lima. i want a hotel with great food and some attraction for both of us.,,Moderate
+34,I want a cheap hotel for AAAI 2026 near the confernce place. I want it to be close to bus staion,AAAI 2026 will be in the Singapore EXPO.,Moderate
+35,"I am going to present my work in the headquarter of Walmart, they paid on evreything so give me the most luxury hotel you can find!","the headquarter of Walmart is in Bentonville, Arkansas",Moderate
+36,"I love to do  triathlons, give me a best hotel for me to have a good time and still be in shape. i want it to be in europe but dont care where.",i want to be able to run and swim,Complex
+37,"“I’m honeymooning in Santorini (Oia/Imerovigli). Want an adults-only, cliff-side suite with a private plunge pool, caldera view, and great on-site fine dining. Recommend two options.”",(1) adults-only or adult-focused; (2) private plunge pool or suite pool; (3) caldera/sea view; (4) on-site high-end restaurant with good reviews.,Complex
+38,"“Searching Kyoto (Gion),  a traditional ryokan with tatami rooms that can provide vegan kaiseki / vegan breakfast on request, within walking distance of Gion.”","(1) ryokan-style/tatami rooms; (2) able to provide vegan meals per reviews or site; (3) located in/near Gion; (4) clear evidence (hotel page/reviews) of vegan option.
+ Suggested hotels: Vegan Minshuku Sanbiki Neko (vegan minshuku listing).",Complex
+39,"“Iceland (South) stay: small hotel with Northern Lights wake-up service, geothermal spa access, and demonstrated sustainability practices.”",(1) explicitly offers aurora wake-up/notification service; (2) spa or nearby geothermal bathing; (3) sustainability measures mentioned on hotel site or trusted review.,Complex
+40,"“Ubud, Bali,  jungle resort with rice-terrace views, daily yoga classes, organic/locally-sourced meals, and programs for beginners.”","(1) Ubud location with jungle/rice terrace views; (2) daily yoga on schedule; (3) organic/local menu highlighted; (4) programs suitable for beginners per hotel info.
+ Suggested hotels: Kamandalu Ubud (yoga pavilion, rice-paddy setting).",Complex
+41,"“Zermatt family ski resort: ski-in/ski-out or immediate slopes access, kids club/babysitting, indoor pool, and equipment storage.”",(1) slope access (ski-in/out or immediate transfer); (2) kids club/babysitting advertised; (3) indoor pool on-site; (4) ski gear storage or heated storage.,Complex
+42,“Any adults-only hideaways in Santorini where the rooms come with plunge pools looking over the caldera? Bonus if the hotel’s restaurant is considered fine dining.”,(1) Santorini adults-only hotel; (2) private plunge pool; (3) caldera view; (4) high-end restaurant.,Complex
+43,"“Any dog-friendly hotels right by Central Park that also go the extra mile,  dog beds, treats, maybe even a walking service?”",(1) luxury hotel near Central Park; (2) pet amenities (beds/treats/walking); (3) 4–5★.,Complex
+44,"“Planning Lisbon in Alfama. Want a boutique hotel with a rooftop for sunset drinks, views of the river/castle, and tram 28 right around the corner.”",(1) Alfama location; (2) rooftop terrace; (3) tram 28 nearby; (4) scenic views.,Complex
+45,"“Is there a family-friendly, all-inclusive in Punta Cana where the snorkeling reef is right at the beach, the kids’ club is actually structured, and they don’t mess up gluten-free meals?”",(1) Punta Cana resort; (2) beach reef snorkeling; (3) structured kids club; (4) gluten-free handling.,Complex
+46,"“I’d love to stay in an actual Scottish castle,  not a new build. Needs estate walking trails, and proper afternoon tea service.”",(1) authentic castle hotel; (2) estate walks; (3) afternoon tea; (4) historic wing rooms.,Complex
+47,"“Queenstown basecamp needed: must work as an adventure hub (heli/bungee partners), gear storage, and lake shuttle access.”",(1) Queenstown hotel; (2) adventure partnerships; (3) gear storage; (4) lake transport.,Complex
+48,"“We want an overwater bungalow in the Maldives where you can snorkel straight from the deck. Privacy matters, and blackout blinds are a must since we nap during the day.”",(1) overwater villa; (2) reef snorkeling direct; (3) blackout blinds; (4) private/secluded/adults-only.,Complex
+49,"“Two-week Europe trip in winter,  5 nights in Vienna and 5 in Prague. Both hotels must be (a) historic buildings converted into luxury hotels, (b) walking distance to the Christmas markets, (c) gluten-free breakfast certified safe (not just ‘we can do GF’), and (d) have connecting rooms for our kids.”","(1) Vienna + Prague hotels, both historic-converted luxury; (2) <10 min walk to main Christmas markets; (3) certified gluten-free breakfast; (4) connecting rooms.",Complex
+50,"“We’re planning a multi-city honeymoon across Italy,  Florence, Rome, and the Amalfi Coast. In each place we want historic hotels with rooftop terraces for sunset views, suites with soaking tubs, and breakfast menus that can reliably accommodate lactose-free and gluten-free needs without cross-contamination. Bonus if any of them host live music nights.”","(1) Hotels in Florence, Rome, and Amalfi; (2) historic/luxury properties; (3) rooftop terrace with views; (4) suites with soaking tubs; (5) safe GF + LF breakfast; (6) live music",Complex
+51,"“Heading to Iceland in winter with my elderly parents. We need a hotel that offers wheelchair-friendly rooms, geothermal hot tub access, and an aurora wake-up call service. Ideally, it should be less than an hour from a glacier lagoon so we can take short day trips.”",(1) South Iceland location (<1 hr from Jökulsárlón or similar); (2) wheelchair-accessible rooms; (3) geothermal spa/hot tub; (4) aurora wake-up service.,Complex
+52,"“Traveling to Geneva with my extended family during Passover. We need a hotel near the UN that offers kosher breakfast/dinners, has Hebrew-speaking staff, family suites for 4–6 people, and at least one conference room for 25–30 attendees.”","(1) Geneva, near UN; (2) kosher meals; (3) Hebrew-speaking staff; (4) family suites 4–6 pax; (5) 25–30 person conference room.",Complex
+53,"“We’ll be in Dubai during Ramadan with our kids. Need a luxury hotel that offers discreet in-room dining outside normal hours, has a female-only spa wing, babysitting services, and is walking distance to a metro station.”",(1) Dubai luxury; (2) discreet in-room dining off-hours; (3) female-only spa; (4) babysitting; (5) metro walking distance.,Complex
+54,"“We’re taking our twins (both under 2 years old) to Paris. We need a suite with two cribs provided, blackout curtains for nap time, soundproofed windows, and babysitting services in case we go out at night. Bonus if the hotel has a Michelin-starred restaurant on-site.”",(1) Paris; (2) suite with 2 cribs; (3) blackout curtains; (4) soundproofing; (5) babysitting; (6) Michelin-starred dining bonus.,Complex
+55,"“We’re cyclists doing a Provence tour. Looking for hotels that have secure indoor bike storage, high-protein breakfast (eggs, not just croissants), laundry service for gear, and proximity to scenic routes within 5 km.”",(1) Provence; (2) secure bike storage; (3) high-protein breakfast; (4) laundry service; (5) <5 km from cycling routes.,Complex
+56,"“Looking for a ski hotel in Niseko that has ski-in/ski-out, private family onsens, daycare for toddlers, and a late-night ramen bar on-site.”",(1) Niseko; (2) ski-in/ski-out; (3) family onsen/private baths; (4) toddler daycare; (5) late-night ramen option.,Complex
+57,"“Honeymoon in the Maldives. Looking for an overwater villa with private slide into the lagoon, underwater restaurant access, butler service, and spa treatments that can be done in-villa.”",(1) Maldives; (2) overwater villa w/ slide; (3) underwater restaurant; (4) butler service; (5) in-villa spa.,Complex
+66,"Looking for a large villa in Italy for 3 families for 1 week during July or August, up to two hours drive from the nearset intrenational airport, prefrably with a pool","3 families means 12-15 persons, ~6-7 adults",Moderate
+67,"High-wnd beachside resort in thatiland for a young couple, must include a private beach, pool and spa",high-end 4-5 stars,Simple
+68,Dog friendly apartment in paris or london next to a park,pets must be allowed,Moderate
+69,"I bought a ticket to the 2026 world cup final, looking for a nearby hotel with a easy access to the stadium. ",wrold cup - refres to the fifa soccer wolrdl cup. The final is set for 19 July in New Jersey. easy access mean a walk or short ride by easily accessble public transportaion/taxi,Complex
+70,Room for 5 persons or 2 rooms with a connecting door in Vienna international airport for a single night. Walking distance from the terminal.,walking distance - up to 10 mins walk,Moderate
+71,"I'm looking for a hotel in Breuil-Cervinia, with spa and a decent breakfast",1. should be in Breuil-Cervinia. 2. should have a spa. 3. good breakfast. ,Moderate
+72,I'm looking for a dorm guesthouse in Beunos-Aires with a shared hangout space so I can meet other travellers,1. dorm 2. in Buenos-Aires. 3. have a shared hangout space.,Moderate
+73,I'm looking for a hotel and not a guesthouse near the Kathmandu Chabad House,1. not guesthouse. 2. Near Kathmandu Chabad House,Simple
+74,"a hotel Shavie Tzion, Israel - which allows guests to have their own Barbeque",1. In Shavie Tzion. Barbeque allowed,Simple
+75,I'm looking for a dive resort in Malapascua,1. Dive resort. 2. In Malapascua,Simple
+76,I'm looking for a family hotel with a private beach to the sea of galilee.,1. appropriate for families. 2. private beach to the sea of galilee,Moderate
+77, I'm looking for a hotel in Barcelona near Las Ramblas with a shared kitchen where I can cook my own meals.,1. near Las Ramblas. 2. Shared kitchen,Moderate
+78,We're a family of four. I'm looking for an hotel in Barcelona with indoor pool and kids club. Food options should include vegeterian,1. indoor pool that kids can enter 2. should contain kids club 3. should have vegeterian food,Moderate
+79,I'm looking for hotel near AlexanderPlatz with a dedicated work lounge I can work from,1. location (Berlin) 2. search for work lounge,Moderate
+80,I'm using a wheelchair. I'm looking for an hotel in central Vienna where the shower is wide enough for my wheelchair,1. what is central 2. what fits a wheelchair,Complex
+81,I'm travelling to Eilat with my kids. I want an hotel that offers discunted attractions in the city.,1. Location 2. attractions,Moderate
+82,I'm looking for an hotel in west europe that accepts my H rewards,1. membership,Simple
+83,"I'm looking for a hotel with adjoining rooms for a family of 5, in the Canadian rockies",,Moderate
+84,"I'm looking for a hotel in Phuket that is suitable for a family with 3 kids (a toddler, a teenager and a middle-schooler), with activities in the hotel",,Simple
+85,"I'm looking for a hotel in Sydney that is near the opera house, up to 200 dollars per night, for a group of wheelcahir bound adults and their caregivers",accesible for wheelchairs,Complex
+86,"I'm looking for a 5 star resort in Singapore, with restaurants, a pool, a lounge and clothing stores ",,Simple
+87,"I'm a vegan yoga instructor, looking for a hotel in southern Italy that has vegan food and rooms large enough to practice yoga in them",,Moderate
+88,"Romantic hotel for a couple in Marbella, in Puerto Banus area. Car parking in the hotel or up to 3 mins walking is required","Romantic hotel for a couple:
+- Clean hotel  
+- Friendly staff 
+
+important requirement: car parking",Moderate
+89,"Clean hotel in Rome, 5-10mins walking distance to both Piazza Espana and Fontana de Trevi",(1) location: near Fontana de Trevi and Piazza Espana,Moderate
+90,"All-inclusive hotel in Mexico, Playa Del Carmen area - adults only",,Simple
+91,"Searching for a modest hotel in New York City. I would like the room to be big. Good location, and good breakfast. I am also not sure if my trip will take place so I want it to be flexible with cancelation policy.",,Complex
+92,Hotel in Tokyo which is close to one of the main train stations but not too noisy at night,,Moderate
+93,4 stars adults-only hotel in Cyprus with a beach,,Simple
+95,Travelling with my wife and kids to Montengrue. looking for a pool and spa in the evening. Should be next to an airport,1. hotel close to airport. 2. should have both pool and spa. 3. should have activities for kids,Simple
+96,"Have 48 hours with my wife in Athens, we love shopping , we don't take a car",1. hotel should be in city center. ,Simple
+97,"Looking for hotel that will be not more then 20 minutes drive to zabliac, beds should be comfortable as my motheer in lw will join us ",should look for specific beds comments ,Moderate
+98,I'm hiking with my 10 years old daughter in mon blanc track. please order hotels for all my tracks. it should be relatively simple hotels,"1. on mont blanc track 2. simple hotel, not fancy",Moderate
+99,"Planning a trip to London, love british breakfast and I have a budget of 100 euro per night. I don't want to drive long for city center from hotel. metro station is good",1. great breakfast reccomendation. 2. price. 3. distance from cty center,Moderate
+100,"Hotels for large people in Tokyo, Yokohama and Osaka, near the center of each city, not love hotels","1. Hotels with large beds and possibly large rooms
+2. Avoid hourly hotels with adult themes",Complex
+101,"Large family friendly hotels in Prague, near public transportaiton, with breakfast included and holiday decorations","1. Rooms or suites that can accomodate families with more than 2 kids.
+2. In the center of the city.
+3. Availability on the end of December",Moderate
+102,Hotels in Israel with water parks and suites for 5,,Simple
+103,Adult only hotels with spa and hot springs across europe,"1. Hotels with addmition to 16+ audience, not necesseraly adult themes",Complex
+104,Inexpensive 5-star hotel with full breakfast in New York,,Moderate
+105,Hotels in Tokyo with good public transportation in a centraly located but not overly touristy location,"1. Hotels in or near Tokyo’s city center
+2. Easily accessible with public transportation
+3. Not in areas packed with tourists",Complex
+106,Highly reviewed adults only hotels in Hakone with private Onsen,"1. Hotel should be only for adults
+2. Room should include a private onsen
+3. Hotel should be highly recommended",Moderate
+107,A seaside highly recommended clean hotel in an Island easily accessible within a fairy ride from Athens,"1. Hotel should be near the sea
+2. Should be within a short proximity to Athens
+3. Hotel should be highly recommended
+4. Hotel should be on an Island",Complex
+108,"A deal for a larger than usual room in an NYC highly rated hotel, centrally located but not on Times Square","1. Hotel should be centrally located but still far from Times square
+2. Room should be larger than standard rooms in NYC hotels
+3. The room's price should be discounted",Complex
+109,Hotel next to exciting scuba diving sites in Rhodes,1. Hotel should be within short proximity to scuba diving sites in Rhodes,Moderate
+110,A hotel room next to the Imperial Palace in Tokyo with a king size bed,"1. Hotel should be within short proximity to the imperial palace in Tokyo
+2. Room should have a king size bed",Moderate
+111,A hotel in a good neighborhood in Boston.,1. Hotel should be nearby city center area,Moderate
+112,A hotel in Tel-Aviv that is nearby the sea,1. The hotel should be within close proximity to the beachfront.,Simple
+113,I want to stay in the hotel where they shot the film 'Home Alone 2',1. The hotel where they shot 'Home Alone 2' is The Plaza hotel in New-York City,Complex
+114,I want to stay in a hotel on the Las-Vegas strip,1. The hotel should be within walking distance of the Las-Vegas strip,Simple
+115,5 star resort in Cancun for a family of 6 with children activities ,1. Hotel should provide children activities 2. Hotel should be in Cancun,Moderate
+116,Hotel in Tokyo which is close to one of the main train stations but not too noisy at night,"1. Main train stations - Shinjuku, Shibuya, Ginza.",Complex
+117,4 stars adults-only hotel in Cyprus with a beach,,Simple
+118,Hotel in Osaka with western breakfast included.,"Breakfast should include bread, eggs, cheese, vegetables, and not only traditional Japanese food.",Complex
+119,Vila in Greece for group of 6 friends for a bachelorette party with a pool.,1. Fits to 6 adults. 2. Has pool,Simple
+120,"I have one night connection in Munich, I don't plan to travel in the city just need a place to sleep.",!. Close to Munich airport. 2. No need for fancy hotel.,Moderate
+121,"A resort in cyprus for a family trip with suites of different sizes for two couples and two families with toddlers that need to sleep in separate rooms, pool, and breakfast included.","1. should have 4 available suites/rooms, two of them should fit a couple and the other two should fit a couple and a toddler. 2. should have cribs for the toddlers. ",Complex
+122,"A romantic hotel for a couple, up to an hour drive from Jerusalem","1. romantic means - it should have nice view or design, optionally adults-only, special services such as spa.",Moderate
+123,A hotel in Porto that has a crib and is next to the train going to the airport,Metro going to airport is Line E (Purple) ,Moderate
+124,A cheap hotel with twin room next to times Square,Time square is in New York City,Simple
+125,A hotel next to University Medical Center of Groningen,,Simple
+126,I'm looking for a hotel in Tel Aviv near Bait Al Ha'yam wedding venue for one night on October 9th for 2 adults and a 1-year-old child.,,Moderate
+127,A clubmed or a resort with kids club suitable for a 1 year old with a short flight from Israel,multiple possible locations,Moderate
+128,I'm looking for a luxury family-friendly resort that's easily accessible from Israel for early April. The destination should have warm weather during this time of year,,Moderate
+129,"A nice place to stay in Prague for a couple, near the city center ",,Simple
+130,Hotel in Crete with organized kids' activities during the day and professional nanny service in the evening - walking distance to the beach,(1) daytime kids' program (2) evening childcare (3) beachfront location (<500m),Simple
+131,"Family suite in Eilat with access to a water park and daily kids' activities program, need certified childcare for date nights",(1) suite suitable for family (2) water park access (3) organized children's activities (4) professional babysitting services,Complex
+132,All-inclusive resort in Rhodes with certified babysitting services and water activities for kids aged 2 and 4,(1) all-inclusive package (2) professional childcare (3) kids' water activities ,Moderate
+133,"Looking for a family resort in Eilat with a supervised kids' club for ages 2 and 4, must have evening activities so parents can enjoy dinner alone",(1) Kids' club with professional supervision (2) evening programs for children (3) family-friendly resort amenities,Moderate
+134,"Planning a digital nomad stay in Italy for 2 months - need reliable wifi, coworking space, and weekly housekeeping",Long-term stay requiring (1) verified high-speed internet (2) workspace (3) regular cleaning service,Moderate
+135,"Looking for a beachfront resort in Phuket with a kids' club and cooking services, and has rooms with connecting doors for our family of 4",,Complex
+136,"Hotel in Paris for a family of five, either joint rooms or a single suite with multiple rooms. Balcony is a must.",,Complex
+137,All-inclusive hotel in Mauritius or Seychelles w/ fun activities for children.,,Moderate
+138,"A hotel with a pool near the Dead Sea, ideally close to Qumran.",,Moderate
+139,Cheap hotel in Tel-Aviv.,,Moderate
+140,A hotel in Ko Phangan in December.,,Simple
