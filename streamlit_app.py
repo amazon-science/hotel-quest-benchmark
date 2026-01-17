@@ -207,7 +207,6 @@ def _is_tool_call(msg: BaseMessage) -> bool:
 def generate_answer(state: PlanningState):
     human_msgs = [m for m in state["messages"] if isinstance(m, HumanMessage)]
     question = human_msgs[-1].content if human_msgs else "Unknown question"
-    # context = _extract_context(state["messages"])
     if "summary" not in state.keys():
         state["summary"] = "Empty"
     context = state["summary"]
@@ -235,8 +234,6 @@ class PlanningState(TypedDict):
 
 @st.cache_resource(show_spinner=False)
 def _compile_graph():
-    # workflow = StateGraph(MessagesState)
-        # RIGHT—use your PlanningState
     workflow = StateGraph(state_schema=PlanningState)
 
 
@@ -258,7 +255,6 @@ def _compile_graph():
         }
     )
 
-    # workflow.add_edge("retrieve", "final_answer")
     workflow.add_edge("retrieve", "plan_or_answer")
     workflow.add_edge("reviews", "plan_or_answer")
     workflow.add_edge("web_search", "plan_or_answer")
@@ -317,13 +313,11 @@ def stream_and_render(prompt: str) -> None:
 
                 new_msgs = delta.get("messages", [])
 
-                # ───────── (inside stream_and_render) ─────────
                 for m in new_msgs:
                     if isinstance(m, ToolMessage):
                         continue
 
                     if _is_tool_call(m):
-                        # keep it for the trace panel only
                         continue
                         
                     if node_name != "final_answer":

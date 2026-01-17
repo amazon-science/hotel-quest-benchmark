@@ -26,8 +26,8 @@ COLLECTION = "reviews_server_index"
 
 
 class MultiQueryArgs(BaseModel):
-    queries: List[str]                               # required
-    metadata: Optional[Dict[str, str]] = None        # optional
+    queries: List[str]
+    metadata: Optional[Dict[str, str]] = None
     top_k: int = Field(5, ge=1, description="docs")
     gamma: float = Field(1.0, gt=0, description="RBF width")
     agg: str = Field("sum", pattern="^(sum|mean)$")
@@ -59,7 +59,6 @@ def _connect_milvus_server(host: str = "127.0.0.1", port: int = 19530, alias: st
     Raises RuntimeError with a helpful message if both fail.
     """
     try:
-        # ensure clean alias
         try:
             connections.disconnect(alias)
         except Exception:

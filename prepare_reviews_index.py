@@ -93,7 +93,7 @@ vector_store = Milvus(
     index_params=INDEX_PARAMS, 
     search_params= SEARCH_PARAMS  , 
     drop_old=True,
-    auto_id=True,                   # <-- we’ll supply our own IDs
+    auto_id=True,
 )
 
 def batched(iterable, n):
@@ -116,7 +116,7 @@ for rows in batched(iter_jsonl(JSONL_PATH), BATCH_ROWS):
     metas = [r[1] for r in rows]
 
     # Pre-embed
-    vecs = emb.embed_documents(texts)  # list of lists (dim=384)
+    vecs = emb.embed_documents(texts)  # list of lists
 
     # Push vectors directly
     vector_store.add_embeddings(texts, vecs, metadatas=metas)
@@ -128,8 +128,7 @@ pbar.close()
 
 # Build index once
 # vector_store.create_index()
-
-print(f"Indexed {added} docs into Milvus collection '{COLLECTION}'")
+# print(f"Indexed {added} docs into Milvus collection '{COLLECTION}'")
 
 
 

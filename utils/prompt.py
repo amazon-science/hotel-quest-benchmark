@@ -20,7 +20,6 @@ GENERATE_PROMPT = (
     "   • Review validation: confirm or contradict description claims using reviews; summarize sentiment or specific quotes (paraphrase) with citations.\n"
     "   • Trade-offs (what you give up vs. alternatives) and who this option is best for.\n"
     "- Make a final ranked recommendation with rationale, referencing the user’s priorities.\n"
-    # "- List unmet needs/uncertainties and explicit assumptions. If something is missing, say it.\n\n"
 
     "User question:\n{question}\n\n"
     "Retrieved context (descriptions, reviews, web):\n{context}\n\n"
@@ -111,8 +110,7 @@ PLAN_PROMPT_TEMPLATE = (
     "Retrieval strategy:\n"
     " * Always start with REVIEWS to create an initial set of candidate hotels.\n"
     " * If reviews do not provide enough candidates, use DESCRIPTIONS to add more candidates. For any new candidates found this way, go back and try to retrieve relevant REVIEWS for them. If reviews already provide enough candidates, use DESCRIPTIONS only to enrich details or cross-check information.\n"
-    " * If the internal sources (reviews + descriptions) are not enough to fully satisfy all the reasonable aspects of the question, or if you need external knowledge, then perform a WEB SEARCH.\n"
-    # " * Avoid unnecessary searches — only search after exhausting reasonable internal retrieval options.\n\n"
+    " * If the internal sources (reviews + descriptions) are not enough to fully satisfy all the reasonable aspects of the question, or if you need external knowledge, then perform a WEB SEARCH.\n\n"
 
     "Validation rules:\n"
     " - Always cross-check facts between descriptions and reviews.\n"
@@ -130,11 +128,6 @@ PLAN_PROMPT_TEMPLATE = (
     " - Do NOT produce a web-only answer. If no internal database hotel can be cited after reasonable attempts, explicitly state this limitation and suggest next retrieval steps.\n"
     " - Prefer database citations over web citations when both exist.\n\n"
 
-    # "Decision gate before answering:\n"
-    # # " - If you have at least one relevant in-database hotel that satisfies all the user's requirements, proceed to answer and include the required citation(s).\n"
-    # # " - If not, attempt further retrieval (up to {k} attempts per tool). Only after exhausting attempts may you use web sources to fill gaps.\n\n"
-    
-    # " – If not, continue retrieval or web search until you either find a solution that satisfies all of the user’s requirements, or determine, based on previous tool interactions, that further attempts are unlikely to yield better results.\n\n"
     "Decision gate before answering:\n"
     "Before generating the final response, verify whether you have sufficient and relevant information "
     "to meet all user requirements (e.g., location, dates, budget, amenities, party size).\n\n"
@@ -142,11 +135,7 @@ PLAN_PROMPT_TEMPLATE = (
     "recommendations and clearly explains the reasoning.\n"
     "– If not: Continue retrieval or web search iteratively until you either obtain enough information "
     "to fully satisfy *all* the user’s request perfectly."
-    # "or determine—based. on prior retrieval or tool interactions"
-    # "that additional searches are unlikely to improve the result. In that case, provide the best possible "
-    # "answer while explicitly mentioning any remaining limitations.\n\n"
-
-
+    
     "Summary:\n{summary}\n"
     "Previous tool attempts:\n{attempts}\n\n"
     "Question:\n{question}"
